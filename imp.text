@@ -1,0 +1,41 @@
+
+equality operators -
+
+$eq - equal to
+$lt - less than
+$lte - less than or equal to
+$gt - greater than
+$gte - greater than or equal to 
+$ne - not equal to 
+
+comparision operators -
+
+$in - in
+
+- db.getCollection("amit")
+.find({ eyeColor:{$in:['blue','green']} })
+
+$nin - not in 
+
+- db.getCollection("amit")
+.find({ eyeColor:{$nin:['blue','green']} })
+
+$and  - logical and 
+
+logically combines multiple conditions.
+and the reulting documents must
+match all conditions
+this is explicit $and.
+this is usefull when fields are same
+
+
+db.getCollection("amit")
+    .find({
+        $and: [
+            { gender: 'male' },
+            { favoriteFruit: 'banana' },
+            { eyeColor: 'blue' },
+            { age: { $gte: 33 } }
+        ]
+    })
+
