@@ -1,0 +1,13 @@
+
+
+git remote add origin https://github.com/codewithamitpatil/Typeorm-With-Nodejs.git
+git branch -M main
+git push -u origin main
+
+echo "# Typeorm-With-Nodejs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/codewithamitpatil/Typeorm-With-Nodejs.git
+git push -u origin main
