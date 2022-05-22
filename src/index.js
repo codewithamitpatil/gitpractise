@@ -11,6 +11,11 @@ app.get('/', async (req, res) => {
     res.send('hello fro docke practise');
 })
 
+// new route
+app.get('/amit', async (req, res) => {
+    res.send("hello amit new commit");
+})
+
 // start server
 app.listen(port, () => {
     console.log(`server is running on port ${port}`);
