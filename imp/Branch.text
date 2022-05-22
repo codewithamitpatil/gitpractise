@@ -1,0 +1,53 @@
+
+
+1. to see list of all branches
+
+git branch
+
+
+2. to see branch is exists or not 
+
+git checkout (branch name) 
+
+ex:- git checkout amit - where amit is branch 
+
+
+3. to create branch 
+
+//a]
+
+git checkout -b (branch name)
+
+ex: git checkout -b amit 
+
+//b]
+
+git switch -c (branch name)
+
+ex: git switch  -c sumit
+
+4. to swtich branch 
+
+//a]
+
+git checkout (branch name)
+
+ex: git checkout sumit 
+
+//b]
+
+git switch (branch name)
+
+ex:- git switch sumit
+
+5. To delete a local branch in Git, you simply run
+
+git branch -d <branch-name>
+
+6. If the branch contains unmerged changes, though,
+ Git will refuse to delete it. 
+ If you’re sure you want to do it, 
+ you’ll have to force the deletion by replacing
+  the -d parameter with an uppercase D:
+
+git branch -D <branch-name>

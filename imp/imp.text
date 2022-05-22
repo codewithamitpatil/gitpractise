@@ -1,5 +1,38 @@
 
 
+
+
+### when 1st time steps to follow
+
+
+1. git init 
+
+this will intialize empty git repostitory
+
+2. git add .
+
+this will do stageing for all files  
+
+3. git commit -a -m "first commit"
+
+this will add commit for all modified files.
+(-a  means all)
+(-m means modified)
+
+4. git branch -M main 
+
+this will add to main branch 
+
+
+5. git push -u origin main
+
+to upload code on github
+
+
+
+
+
+
 git remote add origin https://github.com/codewithamitpatil/Typeorm-With-Nodejs.git
 git branch -M main
 git push -u origin main
